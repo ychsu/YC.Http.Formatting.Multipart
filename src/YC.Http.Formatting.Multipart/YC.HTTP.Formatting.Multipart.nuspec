@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package >
+  <!--
+	Any nuget reference you add will be included in the nuget package as a dependency without you
+	having to add it in here.
+	
+	For more info on how to compose a nuspec file see http://docs.nuget.org/create/nuspec-reference 
+	-->
+
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>System.Net.Http.Formatting.MultipartMediaTypeFormatter</title>
+    <description>讓WebAPI也可以接受 Content-Type: multipart/form-data </description>
+    <authors>YC</authors>
+    <owners>YC</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>web.api,multipart/form-data,MultipartMediaFormatter</tags>
+  </metadata>
+</package>
