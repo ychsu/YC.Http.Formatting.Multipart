@@ -15,7 +15,10 @@
     <authors>YC</authors>
     <owners>YC</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+      0.1.1 修正httpcontent不存在屬性的bug
+      0.1.0 推出
+    </releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>web.api,multipart/form-data,MultipartMediaFormatter</tags>
   </metadata>
