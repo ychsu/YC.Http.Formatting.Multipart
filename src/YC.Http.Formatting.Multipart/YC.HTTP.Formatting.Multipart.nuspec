@@ -14,10 +14,11 @@
     <description>讓WebAPI也可以接受 Content-Type: multipart/form-data </description>
     <authors>YC</authors>
     <owners>YC</owners>
+    <licenseUrl>https://github.com/ychsu/YC.Http.Formatting.Multipart/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ychsu/YC.Http.Formatting.Multipart</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-      0.1.1 修正httpcontent不存在屬性的bug
-      0.1.0 推出
+      修正httpcontent不存在屬性的bug
     </releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>web.api,multipart/form-data,MultipartMediaFormatter</tags>
