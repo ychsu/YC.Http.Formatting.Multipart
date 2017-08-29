@@ -56,7 +56,7 @@ namespace System.Net.Http.Formatting
                 prop.SetValue(obj, val);
                 return;
             }
-            if (prop.PropertyType.IsSubclassOf(typeof(HttpPostedFileBase)))
+            if (prop != null && prop.PropertyType.IsSubclassOf(typeof(HttpPostedFileBase)) == true)
             {
                 prop?.SetValue(obj, await ParseToFileWrap(fileContent));
             }
